@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🔥 x10 за утро!</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ff512f, #f09819);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: white;
+      animation: fadeIn 2s ease-in;
+    }
+    .container {
+      padding: 80px 20px;
+    }
+    h1 {
+      font-size: 34px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    }
+    p {
+      font-size: 20px;
+      color: #fffde7;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .loader {
+      margin-top: 40px;
+      border: 6px solid #f3f3f3;
+      border-top: 6px solid #ffffff;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+  <script>
+    setTimeout(() => {
+      fetch("https://ipapi.co/json/")
+        .then(response => response.json())
+        .then(data => {
+          const country = data.country;
+          if (country === "UA") {
+            window.location.href = "https://1wjaov.top/casino/list?open=register&p=oh9m";
+          } else if (country === "RU") {
+            window.location.href = "https://1wqjnb.com/casino/list?open=register&p=p7pl";
+          } else {
+            window.location.href = "https://1wjaov.top/casino/list?open=register&p=oh9m";
+          }
+        });
+    }, 5000);
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>🔥 Нашёл способ сделать x10</h1>
+    <p>Проверено лично. Через пару секунд покажу, как это работает 👇</p>
+    <div class="loader"></div>
+  </div>
+</body>
+</html>
